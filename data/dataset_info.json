@@ -624,5 +624,23 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "solidity3_train" : {
+    "file_name": "Sol3_alpaca_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system",
+      "history": "history"
+    }
+  },
+  "solidity3_test" : {
+    "file_name": "Sol3_alpaca_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system",
+      "history": "history"
+    }
   }
 }
