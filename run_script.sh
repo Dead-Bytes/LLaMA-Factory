@@ -1,12 +1,9 @@
 ## clone the repo
 
+conda create llama
+conda activate llama
 
-git clone https://github.com/Dead-Bytes/LLaMA-Factory.git
 
-
-## install the reqirements
-
-cd LLaMA-Factory
 pip install -r requirements.txt
 
 
