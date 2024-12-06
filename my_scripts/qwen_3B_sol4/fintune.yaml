@@ -1,6 +1,6 @@
 ### model
 model_name_or_path: unsloth/Qwen2.5-Coder-3B-Instruct-bnb-4bit
-
+resume_from_checkpoint : True
 
 ### method
 stage: sft
