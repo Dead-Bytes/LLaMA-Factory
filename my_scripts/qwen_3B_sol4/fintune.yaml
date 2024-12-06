@@ -6,7 +6,6 @@ model_name_or_path: unsloth/Qwen2.5-Coder-3B-Instruct-bnb-4bit
 stage: sft
 do_train: true
 finetuning_type: full
-deepspeed: examples/deepspeed/ds_z3_config.json
 
 ### dataset
 dataset: sol4_train
