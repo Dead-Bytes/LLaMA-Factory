@@ -642,5 +642,23 @@
       "system": "system",
       "history": "history"
     }
+  },
+  "sol4_train" : {
+    "file_name": "solidity_final_train.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system",
+      "history": "history"
+    }
+  },
+  "sol4_test" : {
+    "file_name": "solidity_final_test.json",
+    "columns": {
+      "prompt": "instruction",
+      "response": "output",
+      "system": "system",
+      "history": "history"
+    }
   }
 }
