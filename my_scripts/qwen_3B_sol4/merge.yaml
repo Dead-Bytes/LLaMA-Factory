@@ -1,4 +1,4 @@
-model_name_or_path: Qwen/Qwen2.5-Coder-3B-Instruct-AWQ
+model_name_or_path: Qwen/Qwen2.5-Coder-3B-Instruct
 adapter_name_or_path: ./saves/qwen/checkpoint-1000
 template: qwen
 finetuning_type: lora
