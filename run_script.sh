@@ -1,7 +1,12 @@
 ## clone the repo
 
-conda create -n llama
-conda activate llama
+sudo apt-get install python3-pip
+
+sudo apt-get install python3-venv
+
+python -m venv .
+
+source bin/activate
 
 ## install llama_facrtory
 
