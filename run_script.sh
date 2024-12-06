@@ -1,10 +1,11 @@
 ## clone the repo
 
-conda create llama
+conda create -n llama
 conda activate llama
 
+## install llama_facrtory
 
-pip install -r requirements.txt
+pip install -e ".[torch,metrics]"
 
 
 ## move the datasets 
@@ -14,11 +15,6 @@ gdown https://drive.google.com/uc?id=1w2evsNwFBJ61epzNoWFyhsnruPMYzUMj
 
 mv  solidity_final_train.json data/
 
-
-## install llama_facrtory
-
-
-pip install -e .
 ## run the finetune sccripts.
 
 llamafactory-cli train my_scripts/qwen_3B_sol4/finetune.yaml
